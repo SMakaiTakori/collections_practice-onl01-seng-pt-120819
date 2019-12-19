@@ -3,9 +3,9 @@ def sort_array_asc(array)
 end  
 
 def sort_array_desc(array)
-  # array.sort.reverse  #works this way as well
-  
   array.sort { |a, b| b <=> a}
+  
+  # array.sort.reverse <--This also works as well
 end  
 
 def sort_array_char_count(array)
