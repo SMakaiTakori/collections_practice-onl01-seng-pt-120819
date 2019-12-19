@@ -3,7 +3,8 @@ def sort_array_asc(array)
 end  
 
 def sort_array_desc(array)
-  # array.sort.reverse
+  # array.sort.reverse  #works this way as well
+  
   array.sort { |a, b| b <=> a}
 end  
 
