@@ -25,4 +25,7 @@ def kesha_maker(array)
     letter[2] = "$"
 end  
 
-def 
+def find_a(array)
+  
+
+end  
