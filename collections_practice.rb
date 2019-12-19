@@ -27,6 +27,5 @@ end
 
 def find_a(array)
   array.each do |str|
-    str[0] = "$"
-
+    str[0] = "a"
 end  
