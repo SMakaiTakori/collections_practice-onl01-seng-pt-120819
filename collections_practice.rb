@@ -23,9 +23,11 @@ end
 def kesha_maker(array)
   array.each do |letter|
     letter[2] = "$"
+  end
 end  
 
 def find_a(array)
   array.each do |str|
     str[0] = "a"
+  end
 end  
