@@ -26,6 +26,7 @@ def kesha_maker(array)
 end  
 
 def find_a(array)
-  array.sort.start_with? 
+  array.each do |str|
+    str[0] = "$"
 
 end  
