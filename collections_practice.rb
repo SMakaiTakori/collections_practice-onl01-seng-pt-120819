@@ -39,7 +39,7 @@ def sum_array(array)
 end   
 
 def add_s(array)
-  if word[2] 
+  if word[2]  
 
 end  
 
